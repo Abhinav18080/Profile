@@ -1,0 +1,232 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 70px;
+    right: 150px;
+}
+.menu .contact{
+    background: none;
+    border:none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu .contact:hover{
+    color: gray;
+}
+.menu .aboutMe{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.menu .aboutMe:hover{
+    color: gray;
+}
+.menu .project{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.menu .project:hover{
+    color: gray;
+}
+
+.head{
+    display: flex;
+    position: fixed;
+    align-items:center;
+    cursor: pointer;
+    top: 60px;
+    left: 40px;
+}
+
+.head .headName:hover{
+    color: gray;
+}
+.barColor{
+    color:white;
+}
+.head .headName{
+    font-size: 30px;
+    background: none;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
+
+
+.body .hi{
+    color: white;
+    display: flex; /*line up things in a flexbile way*/
+    font-size: 60px;
+    align-items: center; /*aligns vertically */
+    height: 100vh;
+    margin: 0;
+    justify-content: center; /*aligns horizontally*/
+    text-align: center;
+}
+
+.arrow {
+position: fixed;
+bottom: 20px;
+left: 50%;
+align-items: center;
+width: 60px;
+height: auto;
+background-size: contain;
+}
+
+.fade {
+opacity:0;
+transition: 1s all ease-out;
+}
+
+.projectContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -250px;
+}
+
+.projectSection{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1350px;
+    height: 220px;
+    background-color: white;
+    border-radius: 25px;
+    text-indent: 20px;
+}
+
+.projectSection .project1{
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMeSection{
+    color: white;
+    margin-top: -250px;
+}
+
+.aboutMeSection .aboutMe{
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.detailContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMeSection .details{
+    font-size: 18px;
+    line-height: 2.5;
+    width:1050px;
+    height:220px;
+    text-align: center;
+}
+
+.contacts{
+    color: white;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.contacts .Contacts{
+    font-size: 25px;
+    text-align: center;
+}
+
+.contacts .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timeFreshman{
+    background-color: green;
+}
+.education{
+    color: white;
+}
+
+.education1{
+    
+    margin-left: 27%;
+    display: flex;
+}
+
+.iowaStateContainer{
+    display: flex;
+    margin-top: 3%;
+    justify-content: start;
+    align-items: center;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+.IowaState{
+    width: 400px;
+    margin-left: 10%;
+}
+.extra, .tennis, .codingClub{
+    margin: 0;
+}
+
+.textContainer{
+    text-indent: 50px;
+}
+
+.clubsOrg{
+    margin-top: 8px;
+}
+
+.courseList{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.profileLinkedIn{
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+.profileLinkedIn:hover{
+    color: lightskyblue
+}
+
+.profileEmail{
+    color: white;
+    text-decoration: underline;
+}
+.profileEmail:hover{
+    color:lightskyblue;
+}
