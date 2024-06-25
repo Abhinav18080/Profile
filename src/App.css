@@ -230,3 +230,20 @@ transition: 1s all ease-out;
 .profileEmail:hover{
     color:lightskyblue;
 }
+
+.githubimg{
+    width: 40px;
+    border-radius: 10px;
+}
+
+.githubimg:hover{
+    box-shadow: 0px 0px 5px 5px #fbfbfb;
+}
+
+.linkedInimg:hover{
+    box-shadow: 0px 0px 5px 5px #00a2fa;
+}
+.linkedInimg{
+    width: 40px;
+    border-radius: 10px;
+}
