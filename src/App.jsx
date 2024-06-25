@@ -124,9 +124,9 @@ function App() {
         <p className='info'>
           Email: &nbsp;<a className='profileEmail' href='mailto:pillai.abhinavmanosh@gmail.com' target='_blank' rel='Gmail'>pillai.abhinavmanosh@gmail.com</a>&nbsp;| 
           Phone: 563-676-8368 | 
-          LinkedIn: &nbsp;<a className='profileLinkedIn' href="https://www.linkedin.com/in/apillai08"  target='_blank' rel='LinkedInProfile'> Abhinav Manosh Pillai</a>
+          &nbsp;<a className='profileLinkedIn' href="https://www.linkedin.com/in/apillai08"  target='_blank' rel='LinkedInProfile'><img  src={linkedIn} alt='linkedIn' className='linkedInimg'/></a>&nbsp;|
+          &nbsp;<a className='profileGitHub' href='https://github.com/Abhinav18080' target='_blank' rel='GitHubProfile'><img src={github} alt="github" className='githubimg'/></a>
         </p>
-          
       </div>
     </>
   )
