@@ -17,7 +17,6 @@ body::-webkit-scrollbar{
 .color{
     background-color: #00a2fa;
     transition: background-color 1s ease;
-    
 }
 
 .menu{
@@ -265,4 +264,10 @@ transition: 1s all ease-out;
 .hobbies{
     color: white;
     padding-top: 50px;
+}
+
+@media (max-width: 700px){
+    .menu{
+        display: none;
+    }
 }

@@ -140,9 +140,6 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='hobbies'>
-        <h1 className='Tennis'>Sports:</h1>
-      </div>
       <div className='contacts' ref={contactPart}>
         <h1 className='Contacts'>Contacts</h1>
         <p className='info'>
@@ -156,5 +153,4 @@ function App() {
     </>
   )
 }
-
 export default App
